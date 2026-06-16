@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>宏哥 | 学生与个人品牌</title>
+    <meta
+      name="description"
+      content="宏哥的个人品牌网站：学生，分享成长、学习、AI 与产品。"
+    />
+    <link rel="preload" href="assets/hero-brand.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="主导航">
+      <a class="brand-mark" href="#top" aria-label="返回顶部">宏</a>
+      <nav class="nav-links" aria-label="页面导航">
+        <a href="#products">产品</a>
+        <a href="#follow">关注</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Student / Creator / Builder</p>
+          <h1 id="hero-title">宏哥</h1>
+          <p class="hero-lede">
+            我是学生，正在学习编程、AI 开发、自动化和个人品牌建设。
+            这里是你了解我、我的产品，以及找到我社交平台的入口。
+          </p>
+          <div class="hero-actions" id="follow" aria-label="社交媒体链接">
+            <a href="https://www.facebook.com/eros.tan.904/" target="_blank" rel="noreferrer">
+              Facebook
+            </a>
+            <a href="https://www.instagram.com/erostan04/" target="_blank" rel="noreferrer">
+              Instagram
+            </a>
+            <a href="https://www.douyin.com/user/self?from_tab_name=main" target="_blank" rel="noreferrer">
+              抖音
+            </a>
+            <a href="https://www.rednote.com/user/profile/621035a00000000010008366" target="_blank" rel="noreferrer">
+              小红书
+            </a>
+          </div>
+        </div>
+
+        <figure class="hero-visual" aria-label="宏哥个人品牌视觉">
+          <img src="assets/hero-brand.png" alt="" />
+        </figure>
+      </section>
+
+      <section class="intro" aria-label="个人简介">
+        <p>
+          我关注真实成长、低成本实践和把想法做成可见成果。现在主要学习技术和内容创作，
+          同时探索适合年轻人的产品表达方式。
+        </p>
+      </section>
+
+      <section class="products" id="products" aria-labelledby="products-title">
+        <div class="section-heading">
+          <p class="eyebrow">Products</p>
+          <h2 id="products-title">我的产品</h2>
+        </div>
+        <div class="product-grid">
+          <article class="product-card">
+            <span class="product-index">01</span>
+            <h3>巴马甄流水</h3>
+            <p>围绕日常饮水与品质生活的产品方向。</p>
+          </article>
+          <article class="product-card">
+            <span class="product-index">02</span>
+            <h3>安心结配套</h3>
+            <p>专注实用配套与可靠体验的产品方向。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> 宏哥</p>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
